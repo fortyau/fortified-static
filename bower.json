@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
+    "jquery": "^1.12.1",
     "purecss-sass": "^0.6.0"
   }
 }
