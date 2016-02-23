@@ -1,0 +1,35 @@
+{
+  "name": "fortified-static",
+  "description": "",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Duane Arnett",
+  "homepage": "",
+  "contributors": [
+    "Duane Arnett <duane@fortyau.com> (https://github.com/duanearnett)"
+  ],
+  "bugs": {
+    "url": ""
+  },
+  "devDependencies": {
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-real-favicon": "^0.2.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-serve": "^1.2.0",
+    "gutil": "^1.6.4",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.5"
+  },
+  "keywords": [],
+  "repository": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ]
+}
