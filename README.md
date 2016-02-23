@@ -1,2 +1,37 @@
-### Styles
-Uncomment what you need for PureCSS grids, etc...
+### Markup
+#### Included Precompilers
+- Jade
+
+#### Build Tasks
+- wiredep
+
+---
+
+### Scripting
+#### Included Precompilers
+- Coffee
+
+#### Included Libraries
+- jQuery
+-
+
+---
+
+### Styling
+#### Included Precompilers
+- SCSS/SASS
+
+#### Build Tasks
+- gulp-autoprefixer
+
+#### Included Libraries:
+- (http://purecss.io/)[purecss.io]
+
+#### Usage Notes:
+- Uncomment what you need for PureCSS grids, etc...
+
+---
+### Misc
+#### Favicons
+- Add `icon.png` to `src/images/favicon` (Minimum 260px * 260px)
+- Run `gulp generate-favicon`
