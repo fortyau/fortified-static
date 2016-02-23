@@ -4,5 +4,6 @@ gulp.task 'compile', [
   'jade'
   'sass'
   'coffee'
-  'wiredep'
+  'vendor'
+  'concat-uglify'
 ]

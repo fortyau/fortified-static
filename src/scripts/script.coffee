@@ -1,9 +1,7 @@
 # Put your functions here...
-app:
+app =
   onLoad: ()->
     console.info 'Document loaded...'
-
-
 
 # Document loaded...
 jQuery(document).ready ($) ->
