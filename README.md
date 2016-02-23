@@ -9,9 +9,6 @@ gulp
 #### Included Precompilers
 - Jade
 
-#### Build Tasks
-- wiredep
-
 ---
 
 ### Scripting
