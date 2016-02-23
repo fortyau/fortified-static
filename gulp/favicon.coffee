@@ -1,7 +1,8 @@
 
 gulp =              require 'gulp'
-realFavicon =       require('gulp-real-favicon')
-fs =                require('fs')
+realFavicon =       require 'gulp-real-favicon'
+fs =                require 'fs'
+
 # File where the favicon markups are stored
 FAVICON_DATA_FILE = 'faviconData.json'
 # Generate the icons. This task takes a few seconds to complete.
@@ -44,6 +45,7 @@ gulp.task 'generate-favicon', (done) ->
     done()
     return
   return
+
 # Inject the favicon markups in your HTML pages. You should run
 # this task whenever you modify a page. You can keep this task
 # as is or refactor your existing HTML pipeline.
@@ -54,6 +56,7 @@ gulp.task 'inject-favicon-markups', ->
       JSON.parse(fs.readFileSync(FAVICON_DATA_FILE)).favicon.html_code))
   .pipe gulp.dest('./dist/')
   return
+
 # Check for updates on RealFaviconGenerator (think: Apple has just
 # released a new Touch icon along with the latest version of iOS).
 # Run this task from time to time. Ideally, make it part of your
