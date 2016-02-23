@@ -1,3 +1,10 @@
+## Setup
+````
+npm install
+bower install
+gulp
+````
+
 ### Markup
 #### Included Precompilers
 - Jade
@@ -8,6 +15,9 @@
 ---
 
 ### Scripting
+
+Any coffee script included in scripts will be compiled and concatenated with script.js
+
 #### Included Precompilers
 - Coffee
 
