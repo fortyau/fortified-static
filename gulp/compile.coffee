@@ -6,4 +6,5 @@ gulp.task 'compile', [
   'coffee'
   'vendor'
   'concat-uglify'
+  'imagemin'
 ]
