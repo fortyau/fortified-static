@@ -10,3 +10,8 @@ gulp.task 'cleanup', ['compile'], ->
     '!./dist/scripts/script.js'
   ])
   .pipe(clean())
+
+
+gulp.task 'clean', ->
+  return gulp.src('./dist', {read: false})
+    .pipe(clean({force:true}))

@@ -7,4 +7,5 @@ gulp.task 'compile', [
   'vendor'
   'concat-uglify'
   'imagemin'
+  'replace'
 ]
